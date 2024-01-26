@@ -1,0 +1,200 @@
+# Welcome to Operating Systems
+In this **Readme** file, I will guide you to how you can  use **Linux(Ubuntu)** operating system simultaneously with **Windows** operating system.
+
+![Ubuntu Logo](/home/lp-gangster/Desktop/Lab 02/Screenshots/Logo.jpg)
+
+## How to Download Ubuntu Setup
+
+In order to download **Ubuntu** complete setup, I want you to carefully follow the set of steps given below:
+
+#### 1. Downloading VMware Workstation 17 Player
+
+​     Click this [Link](https://www.vmware.com/go/getplayer-win/ "VMW.exe") to start downloading VMware Workstation 17 Player.
+
+#### 2. Downloading Ubuntu ISO file
+
+​     Click this [Link](https://ubuntu.com/download/desktop/thank-you?version=22.04.3&architecture=amd64 "Ubuntu.iso") to start downloading Ubuntu operating system.
+
+## How to Install Ubuntu OS
+
+After downloading the **Ubuntu** setup, I will now guide you to how we can initialize VMware Workstation 17 Player to start the the installation of Ubuntu operating system.
+
+#### 1. Installing VMware Workstation 17 Player
+
+​     **1.1:** Double click on the **VMware-player-full-17.5.0-22583795.exe** file. Now, wait for the program to show the Pop-up given below:
+
+![Step_01](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_01.png)
+
+​     **1.2:** Click **Next** to continue.
+
+![Step_01](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_01.png)
+
+​     **1.3:** Accept the **License Agreement** and Click **Next** to continue.
+
+![Step_02](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_02.png)
+
+​     **1.4:** Click **Next** to continue.
+
+![Step_03](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_03.png)
+
+​     **1.5:** Click **Next** to continue.
+
+![Step_04](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_04.png)
+
+​     **1.6:** Click **Next** to continue.
+
+![Step_05](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_05.png)
+
+​     **1.7:** Click **Install** to start the installation.
+
+![Step_06](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_06.png)
+
+​     **1.8:** Click **Finish**.
+
+![Step_07](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_07.png)
+
+Now, your **VMware Workstation 17 Player** has been configured to be used in your Windows operating system.
+
+#### 2. Installing Ubuntu via VMware Workstation 17 Player
+
+​     **2.1:** Open **VMware Workstation 17 Player** from **Desktop**.
+
+![Step_08](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_08.png)
+
+​     **2.2:** Click **Continue**.
+
+![Step_09](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_09.png)
+
+​     **2.3:** Click **Finish** to initialize **VMware Workstation 17 Player**.
+
+![Step_10](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_10.png)
+
+​     **2.4:** Select **Create a New Virtual Machine** to continue.
+
+![Step_11](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_11.png)
+
+​     **2.5:** Click **Browse** to locate the **Ubuntu.iso** file that you downloaded.
+
+![Step_12](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_12.png)
+
+​     **2.6:** Select **ubuntu-22.04.2-desktop-amd64.iso** from your **Downloads** folder and Click **Open** to continue.
+
+![Step_13](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_13.png)
+
+​     **2.7:** Click **Next** to continue. 
+
+![Step_14](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_14.png)
+
+​     **2.8:** Enter your desired **Username** & **Password**.
+
+![Step_15](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_15.png)
+
+**Caution:** Do not forget the password that you enter in the form above as you will need it to login to your **Ubuntu** operating system.
+
+​     **2.9:** Click **Next** to continue.
+
+![Step_16](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_16.png)
+
+​     **2.10:** Click **Next** to continue.
+
+![Step_17](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_17.png)
+
+​     **2.11:** Click **Finish** to initialize **VM Wizard** for **Ubuntu** installation.
+
+![Step_18](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_18.png)
+
+​     **2.12:** If you need to change the **Specification of Ubuntu OS** , then, click **Customize Hardware**. Otherwise, ignore this step.
+
+![Step_19](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_19.png)
+
+​     **2.13:** Wait while the installation is being configured.
+
+![Step_20](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_20.png)
+
+​     **2.14:** Select your desired **Language**.
+
+![Step_21](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_21.png)
+
+​     **2.15:** Click **Continue** to start the installation.
+
+![Step_22](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_22.png)
+
+​     **2.16:** Click **Install Now** to continue.
+
+![Step_23](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_23.png)
+
+​     **2.17:** Click **Continue**.
+
+![Step_24](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_24.png)
+
+​     **2.18:** Wait, while your **Ubuntu OS** is being installed and make sure that your computer is connected to a power source and a stable internet connection.
+
+![Step_25](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_25.png)
+
+​     **2.19:** After **Restarting** your computer you have finally installed **Ubuntu OS** via **VMware Workstation 17 Player** inside your **Windows OS**.
+
+![Step_26](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_26.png)
+
+##  Getting started with Ubuntu
+
+Now, I will guide you to properly install **C\C++** compilers in your **Ubuntu** operating system.
+
+**1.** Click **Windows** key on keyboard and search **Terminal**.
+
+![Step_27](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_27.png)
+
+**2.** You will get the pop-up windows shown below:
+
+![Step_28](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_28.png)
+
+**3.** Type **sudo apt-get install gcc** to install **C** language compiler.
+
+![Step_29](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_29.png)
+
+**4.** Type **sudo apt-get install g++** to install C++ compiler.
+
+![Step_30](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_30.png)
+
+**5.** If you want to install **Typora** on your **Ubuntu OS** you can type **sudo snap install typora**. Otherwise you can ignore this step.
+
+![Step_31](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_31.png)
+
+Now, you have officially installed C/C++ compilers in your **Ubuntu OS**. Time to check if the compilers are successfully installed or not.
+
+**6.** You can use **echo** to create file of your desired format such as .txt, .c, .cpp e.t.c.
+
+![Step_32](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_32.png)
+
+![Step_33](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_33.png)
+
+**7.** You can use the code provided below in **Test.c** and **Test.cpp** to test **C/C++** language compiler.
+
+![Step_34](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_34.png)
+
+![Step_35](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_35.png)
+
+**8.** In order to run these code files we need to create an object file to execute the commands written in the program.
+
+![Step_36](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_36.png)
+
+**9.** We can use **gcc -o File_Name Test.c** and **g++ -o File_Name Test.cpp** to create object files for **C/C++** compilers.
+
+![Step_37](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_37.png)
+
+![Step_38](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_38.png)
+
+**10.** In order to check **C/C++** compilers, we can use **./Object_File_Name** to execute the code in the files.
+
+![Step_39](/home/lp-gangster/Desktop/Lab 02/Screenshots/Step_39.png)
+
+#### With these steps you have finally installed:
+
+**1.** VMware Workstation 17 Player
+
+**2.** Ubuntu Operating System
+
+**3.** C/C++ Compilers
+
+**4.** Typora
+
+You can also visit my **GitHub** profile by clicking this [Link](https://github.com/LPGangster/Operating-Systems/tree/main/Lab_02).
