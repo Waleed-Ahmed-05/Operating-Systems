@@ -196,3 +196,5 @@ Now, you have officially installed C/C++ compilers in your **Ubuntu OS**. Time t
 **3.** C/C++ Compilers
 
 **4.** Typora
+
+You can access **Linux**(**Ubuntu OS**) command mannual by clicking this [Link](https://github.com/Waleed-Ahmed-05/Operating-Systems/blob/main/Lab_03/Commands.md)
