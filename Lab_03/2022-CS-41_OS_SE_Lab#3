@@ -1,0 +1,263 @@
+# Getting started with Ubuntu OS
+
+I will guide to how you can use **Linux**(**Ubuntu OS**) efficiently using Terminal. Every command has been provided and explained via snippets.
+
+## Using 'cd' command
+
+**cd**  and **pwd** stands for **change directory** and **print present working directory**.
+
+![CD](/home/lp-gangster/Desktop/Lab 03/Screenshots/CD.png)
+
+**1.** **cd <Directory_Name>** is used to enter a specific directory via **relative** path.
+
+**2.** **cd /home/<User>/Desktop/<Directory_Name>** is used to enter a specific directory via **absolute** path instead of initializing **relative** path simultaneously.
+
+**3.** **cd ..** is used to exit the current directory and enter previous directory.
+
+**4.** **pwd** is used to view current directory's **absolute** path.
+
+**5.** **clear** is used to clear all commands off the terminal.
+
+**NOTICE:** You can use **Copy & Paste** via **CTRL +SHIFT +C & CTRL +SHIFT +V** only in terminal.
+
+## Using 'mkdir' command
+
+**dir**,**mkdir** and **rmdir** stands for **directory**,**make directory** and **remove directory**.
+
+![MKDIR](/home/lp-gangster/Desktop/Lab 03/Screenshots/MKDIR_01.png)
+
+**1.** **mkdir <Directory_Name>** is used to create new directory.
+
+![MKDIR](/home/lp-gangster/Desktop/Lab 03/Screenshots/MKDIR_02.png)
+
+![MKDIR](/home/lp-gangster/Desktop/Lab 03/Screenshots/MKDIR_03.png)
+
+**2.** **mkdir <Directory_Name>/<Directory_Name>** is used to create a new **directory** with a new **directory** in it or in an existing **directory**.
+
+![MKDIR](/home/lp-gangster/Desktop/Lab 03/Screenshots/MKDIR_04.png)
+
+**3.** **mkdir <Directory_Name_01> <Directory_Name_02> <Directory_Name_03> <Directory_Name_04> <Directory_Name_05>** is used to create multiple **directories** at the same time.
+
+![MKDIR](/home/lp-gangster/Desktop/Lab 03/Screenshots/MKDIR_05.png)
+
+**4.** **rmdir <Directory_Name> ** is used to remove a specific **directory**.
+
+![MKDIR](/home/lp-gangster/Desktop/Lab 03/Screenshots/MKDIR_06.png)
+
+**5.** **rmdir <Directory_Name_01> <Directory_Name_02> <Directory_Name_03> <Directory_Name_04> <Directory_Name_05>** is used to delete multiple **directories** at the same time.
+
+![MKDIR](/home/lp-gangster/Desktop/Lab 03/Screenshots/MKDIR_07.png)
+
+## Using 'echo' command
+
+**rm**,**-** and **-n** stands for **remove file**,**options** and **no newline**.
+
+**1.** **echo <Any_Text>** is used to display output on next line.
+
+**2.** **echo -n <Any_Text>** is used to display output on next line with terminal command control.
+
+**3.** **echo <Any_Text> > <File_Name>** is used to create a new **file** and write data in it or overwrite the existing **file**.
+
+![ECHO](/home/lp-gangster/Desktop/Lab 03/Screenshots/ECHO_01.png)
+
+![ECHO](/home/lp-gangster/Desktop/Lab 03/Screenshots/ECHO_02.png)
+
+**4.** **echo <Any_Text> >> <File_Name>** is used to create a new **file** and write data in it or append data in the existing **file**.
+
+![ECHO](/home/lp-gangster/Desktop/Lab 03/Screenshots/ECHO_03.png)
+
+**5.** **rm <File_Name>** is used to remove **file** by specifying it's name.
+
+![ECHO](/home/lp-gangster/Desktop/Lab 03/Screenshots/ECHO_04.png)
+
+## Using 'File/Edit' commands
+
+**mv** and **cp** stands for **move file** and **copy file**.
+
+**1.** **touch <File_Name>** is only used to create **files**. It can neither append data nor overwrite data in an existing **file**.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_01.png)
+
+**2. ** **nano <File_Name>** is used to edit a **file** by opening a **nano** text editor on terminal directly.
+
+**NOTICE:** When writing any directory or file name you can write first character and then click **TAB** key, the terminal will automatically write the file name but file must be present in the directory.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_02.png)
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_03.png)
+
+**2.1.** You can exit **nano** text editor by clicking **CTRL+X**, then by entering **Y** and pressing **ENTER** key again. 
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_04.png)
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_05.png)
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_06.png)
+
+**3.** **gedit <File_Name>** is used to open the **file** in **Linus**(**Ubuntu OS**) bulit-in text editor.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_07.png)
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_08.png)
+
+**4.** **cat <File_Name>** is used to view all the contents written within a **file**.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_09.png)
+
+**5.** **head -<No_of_Lines> <File_Name>** is used to display the number of lines specified by user from the **file's** start.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_10.png)
+
+**6.** **tail -<No_of_Lines> <File_Name>** is used to display the number of lines specified by user from the **file's** end.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_11.png)
+
+**7.** **less <File_Name>** is used to display the content of the **file** in terminal where you can search for a specific character by using **/<Specific_Character>**.
+
+**NOTICE:** You can only exit **less** terminal by clicking **Q** key.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_12.png)
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_13.png)
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_14.png)
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_15.png)
+
+**8.** **more <File_Name>** works the same as **cat <File_name>** command.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_16.png)
+
+**9.** **sort <File_Name>** is used to display all the contents of the **file** by sorting them in ascending order.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_17.png)
+
+**10.** **mv <Source> <Destination>** is used to move **files** from one directory to another.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_18.png)
+
+**10.1.** **Destination** can either be **relative** or **absolute**.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_19.png)
+
+**11.** **cp<Source> <Destination>** is used to copy **files** from one directory to another.
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_20.png)
+
+![FILE](/home/lp-gangster/Desktop/Lab 03/Screenshots/FILE_21.png)
+
+## Using 'ls' command
+
+**ls** stands for **list view**.
+
+**1.** **ls** is used to view all the **files** located in the **present working directory** except hidden **files**.
+
+**2.** **ls -a** is used to view all the **files** located in the **present working directory** including hidden **files**.
+
+![LIST](/home/lp-gangster/Desktop/Lab 03/Screenshots/LIST_01.png)
+
+**3.** **ls -l** is used to view files with their permissions.
+
+**NOTICE:** **-rw-rw-r--** represent control and permissions of specific **files** which will be later.
+
+![LIST](/home/lp-gangster/Desktop/Lab 03/Screenshots/LIST_02.png)
+
+**4.** **ls -lt** is used to view **files** in descending order with respect to their creation date & time.
+
+![LIST](/home/lp-gangster/Desktop/Lab 03/Screenshots/LIST_03.png)
+
+**4.** **ls -ltr** is used to view **files** in ascending order with respect to their creation date & time.
+
+![LIST](/home/lp-gangster/Desktop/Lab 03/Screenshots/LIST_04.png)
+
+## Using 'System' commands
+
+**man**, **df** and **ps** stands for **mannual**, **show diskspace usage** and **process status**.
+
+**1.** **uptime** is used to view the system's **awake time**.
+
+**2.** **date** is used to view current **date & time** on the terminal.
+
+**3.** **who** and **whoami** is used to view **username** on the system.
+
+**4.** **whatis <Command>** is used to get **brief help** on the terminal.
+
+**5.** **man <Command>** is used to get **detailed help** on the terminal.
+
+![SYSTEM](/home/lp-gangster/Desktop/Lab 03/Screenshots/SYSTEM_01.png)
+
+![SYSTEM](/home/lp-gangster/Desktop/Lab 03/Screenshots/SYSTEM_02.png)
+
+**6.** **df** is used view **disk space** currently occupied.
+
+**7.** **ps** is used to view **system processes**.
+
+![SYSTEM](/home/lp-gangster/Desktop/Lab 03/Screenshots/SYSTEM_03.png)
+
+**8.** **<Command> --help** is used to get **detailed help** on the terminal.
+
+![SYSTEM](/home/lp-gangster/Desktop/Lab 03/Screenshots/SYSTEM_04.png)
+
+**9.** **which <Command>** is used to view **command's location**. 
+
+![SYSTEM](/home/lp-gangster/Desktop/Lab 03/Screenshots/SYSTEM_05.png)
+
+**10.** **top** is used to view all process on terminal and you can exit by pressing **Q** key.
+
+![SYSTEM](/home/lp-gangster/Desktop/Lab 03/Screenshots/SYSTEM_06.png)
+
+## Using 'sudo' command
+
+**1.** **sudo useradd <Username>** and **sudo groupadd <Groupname>** is used to **create** a new **user** or a **group**.
+
+**2.** **sudo userdel <Username>** and **sudo groupdel <Groupname>** is used to **delete** a new **user** or a **group**.
+
+**3.** **sudo passwd <Username>** and **sudo passwd <Groupname>** is used to create a new password for a **user** or a **group**.
+
+![USER](/home/lp-gangster/Desktop/Lab 03/Screenshots/USER.png)
+
+## Using 'chmod' command
+
+**chmod** stands for **change mode**.
+
+**NOTICE**: In **-rw-rw-r--** & **drwxrwxr-x**, **r** represents **read**, **w** represents **write**, **x** represents **executable** and **-** represents **no permission** . And **d** in **drwxrwxr-x** represents **directory**. 
+
+where, **r = 4**, **w = 2**, **x = 1** & **- = 0**
+
+![PERMISSION](/home/lp-gangster/Desktop/Lab 03/Screenshots/PERMISSION_01.png)
+
+![PERMISSION](/home/lp-gangster/Desktop/Lab 03/Screenshots/PERMISSION_02.png)
+
+**1.** **chmod <Permission> <File_Name>** is used to change permission for Owners,Groups & Others.
+
+![PERMISSION](/home/lp-gangster/Desktop/Lab 03/Screenshots/PERMISSION_03.png)
+
+![PERMISSION](/home/lp-gangster/Desktop/Lab 03/Screenshots/PERMISSION_04.png)
+
+![PERMISSION](/home/lp-gangster/Desktop/Lab 03/Screenshots/PERMISSION_05.png)
+
+![PERMISSION](/home/lp-gangster/Desktop/Lab 03/Screenshots/PERMISSION_06.png)
+
+![PERMISSION](/home/lp-gangster/Desktop/Lab 03/Screenshots/PERMISSION_07.png)
+
+# With this we have learned the use of:
+
+**1.** Change Directories
+
+**2.** Make & Remove Directories
+
+**3.** Echo
+
+**4.** File Edits
+
+**5.** Lists
+
+**6.** System
+
+**7.** Sudo
+
+**8.** Change Modes
+
+
+
+You can also visit my Git Profile by clicking this [Link](https://github.com/Waleed-Ahmed-05/Operating-Systems).
