@@ -1,0 +1,209 @@
+# Operating Systems
+
+## Submitted by
+Waleed Ahmed
+
+2022-CS-1  
+
+## Supervised by
+Mr. Numan Shafi
+
+---
+
+## Introduction
+This lab submission includes solutions to various shell script tasks along with their corresponding output images.
+
+---
+
+## Tasks
+
+### Task 1.1: 
+**Task Description:** Create a Bash script which will take 3 numbers as command line arguments. It will print to the screen the larger of the three numbers.
+
+**Solution:**
+
+```bash
+#!/bin/bash
+Number01=$1
+Number02=$2
+Number03=$3
+echo -n  "Enter 1st number: "
+read Number01
+echo -n "Enter 2nd number: "
+read Number02
+echo -n  "Enter 3rd number: "
+read Number03
+if [ "$Number01" -gt "$Number02" ] && [ "$Number01" -gt "$Number03" ]; then 
+    echo -n "Greatest number is: $Number01"
+    echo
+elif [ "$Number02" -gt "$Number01" ] && [ "$Number02" -gt "$Number03" ]; then
+    echo -n "Greatest number is: $Number02"
+    echo
+elif [ "$Number03" -gt "$Number01" ] && [ "$Number03" -gt "$Number02" ]; then 
+    echo -n "Greatest number is: $Number03"
+    echo
+else
+    echo "All number are equal to each other."
+fi
+```
+
+![](1.png)
+
+---
+
+### Task 1.2: 
+
+**Task Description:** Create a Bash script which will print a message based upon which day of the week it is (eg. 'Happy day' for Wednesday, 'blessed' for Friday etc) using switch statement.
+
+**Solution:**
+
+```bash
+#!/bin/bash
+Day=$1
+echo -n "Enter day (Wednesday or Friday): "
+read Day
+case "$Day" in
+"Wednesday")
+echo "Happy Day" ;;
+"Friday")
+echo "Blessed" ;;
+    *)
+echo "Invalid Day" ;;
+esac
+```
+
+![](2.png)
+
+---
+
+### Task 2.1: 
+
+**Task Description:** Create a simple script which will print the numbers 1 - 10 (each on a separate line) and whether they are even or odd.
+
+**Solution:**
+
+```bash
+#!/bin/bash
+i=0
+while [ $i -lt 10 ]
+do
+if [ $((i % 2)) -eq 0 ] ; then
+status="Even"
+else
+status="Odd"
+fi
+echo "$i is $status"
+((i++))
+done
+```
+
+![](3.png)
+
+---
+
+### Task 2.2: 
+
+**Task Description:** Write a program that read number as input, calculate, and return the summation of the all digits of the number. Example: If given number: 745 Then result will be: (7+4+5) = 16
+
+**Solution:**
+
+```bash
+#!/bin/bash
+Number=$1
+Duplicate=$1
+Sum=0
+echo -n "Enter any number: "
+read Number
+Duplicate=$Number
+while [ $Number -gt 0 ];
+do
+Digit=$((Number % 10))     
+Sum=$((Sum + Digit))
+Number=$((Number / 10))    
+done
+echo "Sum of digits of $Duplicate = $Sum"
+```
+
+![](4.png)
+
+---
+
+### Task 3.1: 
+
+**Task Description:** Write a shell script which takes a positive integer as an argument on the terminal and then checks if it is a palindrome or not. In order to find the reverse of this number it must be passed to function named reverse(), which computes the reverse and passes both, the number and its reverse to another function called palindromeCheck(). palindromeCheck() then compares the numbers and echoes if the number is a palindrome or not.
+
+**Solution:**
+
+```bash
+#!/bin/bash
+main() 
+{
+local Number=$1
+echo -n "Enter any number: "
+read Number
+local Reverse=$(reverse $Number)
+palindromeCheck $Number $Reverse
+}
+reverse() 
+{
+local Number=$1
+local Reverse=0
+while [ $Number -gt 0 ]; do
+Reverse=$((Reverse * 10 + Number % 10))
+Number=$((Number / 10))
+done
+echo "$Reverse"
+}
+
+palindromeCheck() 
+{
+local Number=$1
+local Reverse=$2
+if [ $Number -eq $Reverse ]; then
+echo "The number $Number is a palindrome."
+else
+echo "The number $Number is not a palindrome."
+fi
+}
+main "$@"
+```
+
+![](5.png)
+
+---
+
+### Task 3.2: 
+
+**Task Description:** Write a shell script which reads a number from the user and passes it to function named factorial(). This function finds the factorial of the number and prints it on the terminal. This task must be done using recursion.
+
+**Solution:**
+
+```bash
+factorial() 
+{
+if [ $1 -eq 1 ]; then 
+echo "1"
+else 
+Factorial=$(factorial $(($1 - 1)))
+echo $(($Factorial * $1))
+fi
+}
+
+main() 
+{
+local Number=$1
+echo -n "Enter a number: "
+read Number
+local Factorial=$(factorial $Number)
+echo "Factorial of $Number is $Factorial."
+}
+main "$@"
+```
+
+![](6.png)
+
+---
+
+
+
+### Github Repository Link: https://github.com/Waleed-Ahmed-05/Operating-Systems/tree/main/Lab_04
