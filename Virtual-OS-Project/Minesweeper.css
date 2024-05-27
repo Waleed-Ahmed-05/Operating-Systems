@@ -1,0 +1,84 @@
+window {
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*For the set difficulty window*/
+.difScreen {
+ background-color: lightblue;
+}
+.difBtn {
+ background: lightgreen;
+ 
+ font-size: 15px;
+ padding: 50px;
+ margin: 20px;
+ 
+ text-shadow: none;
+ box-shadow: none;
+ border: 5px solid green;
+ border-radius: 100%;
+ color: black;
+}
+.difBtn:hover {
+ border: 5px inset green;
+ background: #ff5555;
+}
+
+
+.borderPane {border: 7px groove gray;}
+.playGrid {border: 7px inset gray;}
+.navBox {border: 7px inset gray; background-color: #c0c0c0; padding: 10px 0;}
+.navFlagsLeft, .navTimer {font-size: 25px; padding: 5px; font-family: sans-serif; color: black; min-width: 75px;}
+
+.navSmileReset {
+  font-size: 30px;
+  min-height: 50px;
+  min-width: 50px;
+  
+  box-shadow: none;
+  border: 7px outset gray;
+  padding: 0;
+  margin: 0;
+  transition: 0;
+}
+.navSmileReset:active {border: 7px inset gray;}
+.navSmileResetWin {background-image: url("Minesweeper_Images/cool.png");}
+.navSmileResetLose {background-image: url("Minesweeper_Images/loser.png");}
+.navSmileResetPlaying {background-image: url("Minesweeper_Images/smiley.png");}
+
+
+.btnStyle {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  min-width: 20px;
+  min-height: 20px;
+ 
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+  border: 2px solid black;
+  margin: 0;
+  transition: 0.2s;
+}
+
+/* empty background-image is required otherwise won't show color */
+.btnStyle1 {background-color: lightgreen; background-image: url("");}
+.btnStyle2 {background-color: green; background-image: url("");}
+.btnVisible1 {background-color: lightgray; background-image: url("");}
+.btnVisible2 {background-color: gray; background-image: url("");}
+
+.btnStyleFlag {background-image: url("Minesweeper_Images/flag.png");}
+.btnStyleMine {background-image: url("Minesweeper_Images/mine.png");}
+.btnStyleOne {background-image: url("Minesweeper_Images/one.png");}
+.btnStyleTwo {background-image: url("Minesweeper_Images/two.png");}
+.btnStyleThree {background-image: url("Minesweeper_Images/three.png");}
+.btnStyleFour {background-image: url("Minesweeper_Images/four.png");}
+.btnStyleFive { background-image: url("Minesweeper_Images/five.png");}
+.btnStyleSix {background-image: url("Minesweeper_Images/six.png");}
+.btnStyleSeven {background-image: url("Minesweeper_Images/seven.png");}
+.btnStyleEight {background-image: url("Minesweeper_Images/eight.png");}
