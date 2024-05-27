@@ -12,7 +12,7 @@ In this **Readme.md** file, I will guide you to how you can install and setup my
 
 **2.** Please make sure you have a stable internet connection, otherwise it may hinder the installation.
 
-**3.** Please make sure to change the file path in **GUI, Calculator, Clock, Notepad, Minesweeper, checkers, tictactoe, connect-four and mill .c** extension files before executing **Setup.sh**.
+**3.** Please make sure to change the file path in **GUI.c, Calculator.c, Clock.c, Notepad.c, Minesweeper.c,main.c** extension files before executing **Setup.sh**.
 
 ### Setup Instructions:
 
@@ -24,6 +24,6 @@ In this **Readme.md** file, I will guide you to how you can install and setup my
 
 **4.** Type **chmod +x Setup.sh** and press **Enter** key.
 
-**5.** Type **./Setup.sh** and press **Enter** key **OR** Run **Setup.sh** as a program by right clicking on it in order to start the installation of **C** language and it's libraries.
+**5.** Type **./Setup.sh** and press **Enter** key **OR** Run **Setup.sh** as a program by right clicking on it in order to start the Installation of **C** language and it's libraries.
 
 #### Now you can successfully my Mini-Virtual-OS on you computer.
