@@ -1,0 +1,30 @@
+# Lab_08 (Tasks)        Roll No. 2022-CS-41
+
+## Task No. 01: Write a program for inter-process communication among child and parent
+process with following needs:
+a. A parent and two child process.
+b. Parent take data from the user
+c. Send to a child for addition and subtraction.
+d. Again take input from user and send to another child for multiplication and
+division.
+e. First child process creates another child C3.
+f. Both the children send result to the child process C3 to show output.
+g. Parent process after completion of each child process task kill the process
+
+![Task_01](1.png)
+
+## Task No. 02: Write a program that creates a child process using fork (). Parent sends a
+message using Pipe () to the Child. The Child receives and displays the
+message. Hint: To allow one way communication each process should close
+one end of the pipe. The file Descriptors associated with a pipe can be closed
+with the close (fd) system call. Output should be of this form:
+Parent: I am Parent I have sent message to the Child
+Child: I have received this message from parent: ....................... 
+
+![Task_02](2.png)
+
+## Task No. 03: Create a simple mini chat application using Named Pipes (FIFO).
+
+![Task_03](3_a.png)
+
+![Task_03](3_b.png)
