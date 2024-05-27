@@ -1,0 +1,13 @@
+# Lab_07 (Tasks)        Roll No. 2022-CS-41
+
+## Task No. 01: Write a program to create one parent with three child using two fork() function where each process find its Id.
+
+![Task_01](1.png)
+
+## Task No. 02: Create two .C or .cpp files, example and hello and replace the example with hello by calling exec() function in example. 
+
+![Task_02](2.png)
+
+## Task No. 03: Create two .C or .cpp files, multiplication and addition and replace the multiplication with addition by calling exec() function in multiplication.
+
+![Task_03](3.png)
