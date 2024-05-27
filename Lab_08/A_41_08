@@ -11,7 +11,7 @@ e. First child process creates another child C3.
 f. Both the children send result to the child process C3 to show output.
 g. Parent process after completion of each child process task kill the process
 
-![Task_01](1.png)
+![1](https://github.com/Waleed-Ahmed-05/Operating-Systems/assets/156175348/d32693c3-ff98-4a14-9d3c-52ac11a8af52)
 
 ## Task No. 02: Write a program that creates a child process using fork (). Parent sends a
 message using Pipe () to the Child. The Child receives and displays the
@@ -21,10 +21,10 @@ with the close (fd) system call. Output should be of this form:
 Parent: I am Parent I have sent message to the Child
 Child: I have received this message from parent: ....................... 
 
-![Task_02](2.png)
+![2](https://github.com/Waleed-Ahmed-05/Operating-Systems/assets/156175348/4171d7b1-3a58-40fc-a87f-a2c01f5a352a)
 
 ## Task No. 03: Create a simple mini chat application using Named Pipes (FIFO).
 
-![Task_03](3_a.png)
+![3_a](https://github.com/Waleed-Ahmed-05/Operating-Systems/assets/156175348/443b4fb9-6f92-4ed7-ae93-03ffcf29ceff)
 
-![Task_03](3_b.png)
+![3_b](https://github.com/Waleed-Ahmed-05/Operating-Systems/assets/156175348/a34b6f3e-452f-4737-85e9-e668e3141fba)
