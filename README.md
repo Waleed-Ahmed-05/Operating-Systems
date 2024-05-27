@@ -26,4 +26,4 @@ In this **Readme.md** file, I will guide you to how you can install and setup my
 
 **5.** Type **./Setup.sh** and press **Enter** key **OR** Run **Setup.sh** as a program by right clicking on it in order to start the Installation of **C** language and it's libraries.
 
-#### Now you can successfully my Mini-Virtual-OS on you computer.
+#### Now you can successfully run my Mini-Virtual-OS on you computer.
